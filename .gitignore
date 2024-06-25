@@ -1,0 +1,27 @@
+# Ignore vendor directory managed by Composer
+/vendor/
+
+# Ignore dependencies managed by Composer
+/composer.phar
+
+# Ignore PHPStorm project files
+/.idea/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore PHPStorm meta files
+*.iml
+*.ipr
+*.iws
+
+# Ignore log files
+/log/
+
+# Ignore compiled PHP files
+*.php[34567]
+*.php~
+
+# Ignore session files
+/session/
